@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Module>
+	
+	<GlobalSolutionName>ThirdParty</GlobalSolutionName>
+	<GlobalNamespace>potato</GlobalNamespace>
+
+	<StaticLibrary>
+		<Name>thirdparty_pybind</Name>
+		<SourceRoot>.</SourceRoot>
+		<ExportedIncludeDirectory>include</ExportedIncludeDirectory>
+		<ThirdParty>true</ThirdParty>
+		<ThirdPartySourceFile>
+			dummy.cpp
+		</ThirdPartySourceFile>
+		<Dependency>thirdparty_python</Dependency>
+	</StaticLibrary>
+
+</Module>
