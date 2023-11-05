@@ -1,4 +1,4 @@
-int stb_test()
+int pybind_test()
 {
 	return 0;
 }
